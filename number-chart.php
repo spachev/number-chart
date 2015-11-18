@@ -26,11 +26,11 @@
 
  function init_param($var_name)
  {
-	 if (!empty($_REQUEST[$var_name]))
-	 {
-		 $val = $_REQUEST[$var_name];
-		 $GLOBALS[$var_name] = $val;
-	 }
+   if (!empty($_REQUEST[$var_name]))
+   {
+     $val = $_REQUEST[$var_name];
+     $GLOBALS[$var_name] = $val;
+    }
  }
 
  function write_number($x,$y,$n)
